@@ -1,0 +1,11 @@
+:root{
+    /* CSS HEX */
+--Azulescuro: #03045eff;
+--Azul: #0077b6ff;
+--Azulmarinho: #00b4d8ff;
+--Azulclaro: #90e0efff;
+}
+
+body{
+    background-color: var(--Azulescuro);
+}
