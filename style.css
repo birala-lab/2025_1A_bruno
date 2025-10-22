@@ -1,11 +1,51 @@
 :root{
     /* CSS HEX */
 --Azulescuro: #03045eff;
---Azul: #0077b6ff;
---Azulmarinho: #00b4d8ff;
+--verde: rgb(30, 182, 0);
+--vermelho: rgb(207, 36, 36);
 --Azulclaro: #90e0efff;
 }
 
 body{
     background-color: var(--Azulescuro);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
+
+main{
+    margin: 20px 0;
+    text-align: center;
+    max-width: 90%;
+}
+
+button{
+    background-color: #0077b6ff(var(--Azul));
+    font-size: 22px;
+    padding: 4px;
+    border-radius: 10%;
+    margin: 5px;
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 5px black;
+}
+
+button:hover{
+    background-color: #90e0efff var(--Azulclaro);
+    box-shadow: none;
+    transition: 0.5s;
+}
+
+.passo{
+    display: none;
+}
+
+.passo.ativo{
+    display: block;
+}
+
+
+
+
